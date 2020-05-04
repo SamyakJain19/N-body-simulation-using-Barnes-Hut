@@ -1,1 +1,1 @@
-# N-body-simulation-using-Barnes-Hut
+# N-body simulation using Barnes-Hut
