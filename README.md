@@ -8,8 +8,7 @@ A parallel implementation of the Barnes-Hut tree algorithm for performing N-body
 ```
     lscpu
 ```
-The number of threads is (number of cores * the number of threads per core) given by this command. The number of threads given as command line argument for step 3 should be less than or equal to this value.
-<br/>
+The number of threads is (number of cores * the number of threads per core) given by this command. The number of threads given as command line argument for step 3 should be less than or equal to this value.<br/>
 2. Run the following commands to compile the project-
 ```
     cd src
