@@ -9,17 +9,20 @@ A parallel implementation of the Barnes-Hut tree algorithm for performing N-body
     lscpu
 ```
 The number of threads is (number of cores * the number of threads per core) given by this command. The number of threads given as command line argument for step 3 should be less than or equal to this value.
+<br/>
 2. Run the following commands to compile the project-
 ```
     cd src
     make
 ```
+<br/>
 3. Execute the compiled executable by runnning it with the given command line arguments -
 ```
     ./barneshut <thread count> <number of clusters> <number of bodies>
                 <number of simulation steps> <theta for quadtree>
                 <random seed for initialization> [output file]
 ```
+<br/>
 4. The results of the simulation will be saved in the [output file] that's saved in the same location.
 ## Documentation
 The comeplete project report with the results and outputs can be found in the [project report](https://github.com/SamyakJain19/N-body-simulation-using-Barnes-Hut/blob/master/Documentation/EC526_FinalProject_Report.pdf) in the Documentation folder.
